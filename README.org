@@ -2,5 +2,5 @@
 This is just a template rust project for the cargo generate command
 
 #+begin_src bash
-  cargo generate --git git@github.com:RampedIndent/rust-template.git
+  cargo generate RampedIndent/rust-template
 #+end_src
