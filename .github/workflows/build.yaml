@@ -18,7 +18,8 @@ jobs:
       PROJECT_NAME: rust-template
     steps:
       - uses: actions/checkout@v3
-      - uses: cargo-generate/cargo-generate-action@v0.17
+      - name: cargo-generate
+        uses: cargo-generate/cargo-generate-action@v0.17.5
         with:
           name: ${{ env.PROJECT_NAME }}
       - uses: actions-rs/toolchain@v1
